@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: rgb(255, 255, 255); 
+    font-family: 'Poppins',sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+nav{
+    font-family: 'Poppins',sans-serif;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+nav .navbar{
+    color: rgb(255, 255, 255);
+    padding: 60px;
+    padding-left: 2px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-top: 25px;
+}
+
+
+body{
+    background-color: grey;
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+}
+
+.bodyakun{
+    background-image: url(img/purple-gradient-background.png);
+    background-size: 150%;
+}
+
+footer{
+    font-family: 'Poppins',sans-serif;
+    position: relative; 
+    margin-top: 130px;
+    padding: 50px;
+    width: 100%; 
+    bottom: 0;
+    background-color: rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);
+}
+
+.judul{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.deskripsi{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 29px;
+    font-size: 15px;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 54px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+.btn:hover, .btn:focus {
+    color: #000000;
+    outline: 0;
+}
+
+.mulai {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.mulai:hover {
+    box-shadow: 0 0 40px 40px #ffffff inset;
+}
+
+.container{
+    font-family: 'Poppins',sans-serif;
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.container-class{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 170px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.container-abt{
+    font-family: 'Poppins',sans-serif;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    margin-left: 300px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.container .title{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .user-details .check-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+form .check-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .file-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .check-box input{
+    height: 20px;
+    width: 30px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+form .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0 ;
+    justify-content: space-between;
+}
+
+.container-class .tittle{
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.tombol{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 0.6em;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-weight: 400;
+    line-height: 1;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+
+.tombol:hover, .tombol:focus {
+    color: #ffffff;
+    outline: 0;
+}
+
+.join {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.join:hover {
+    box-shadow: 0 0 40px 40px #000000 inset;
+}
+
+.log .text{
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    padding-left: 2px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+
+.pengguna{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 50px;
+}
+
+.details_data{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    position: relative;
+    top: 200px;
+
+}

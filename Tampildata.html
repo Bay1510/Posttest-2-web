@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CampDev</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyakun">
+    <div class="details_data" id="data">
+        <h1>Data Course</h1>
+    </div>
+    <script>
+        const storageKey = 'data_course';
+
+        const data = JSON.parse(sessionStorage.getItem(storageKey));
+
+        const container = document.getElementById('data');
+        const ul = document.createElement('ul');
+        data.forEach((e) => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+        <strong>Name:</strong> ${e.nama}<br>
+        <strong>Email:</strong> ${e.email}<br>
+        <strong>Class:</strong> ${e.kelas}<br>
+        <strong>Course:</strong> ${e.course.join(', ')}<br>
+        <strong>Gender:</strong> ${e.gender}<br>
+        <strong>Reason:</strong> ${e.reason}<br>
+        `;
+        ul.appendChild(li);
+        });
+    container.appendChild(ul);
+</script>
+</body>
+</html>

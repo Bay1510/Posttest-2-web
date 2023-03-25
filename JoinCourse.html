@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>CampDev</title>
+        <link rel="shortcut icon" 
+        href="D:\Document\Kuliah\Praktikum Web\pngtree-vector-lightning-button-icon-png-image_537154.jpg">
+    </head>
+    
+    <body class="bodyakun">
+        <header>
+            <h1>CampDev</h1>
+        </header>
+
+        <nav>
+            <a class="navbar" href="home.html" style="text-decoration: none;">Home</a>
+            <a class="navbar" href="Course.html"style="text-decoration: none;">Course</a>
+            <a class="navbar" href="#"style="text-decoration: none;">Sign Up</a>
+            <a class="navbar" href="AboutUs.html" style="text-decoration: none;">About Us</a>
+        </nav>
+
+        <div class="container">
+            <div class="title">Join Class</div>
+            <div class="content">
+            <form id="input-form">
+                <div class="user-details">
+
+                <div class="input-box">
+                    <span class="details">Nama</span>
+                    <input type="text" id="nama" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="check-box">
+                    <span class="details">Course</span>
+                    <input name="course" id="java" type="checkbox" value="Java">Java
+                    <input name="course" id="python" type="checkbox" value="Python">Python
+                </div>
+                <div class="check-box">
+                    <span class="details">Class</span>
+                    <select name="kelas" id="kelas">
+                        <option value="Beginner">Beginner Class</option>
+                        <option value="Advanced">Advanced Class</option>
+                    </select>
+                </div>
+                <div class="check-box">
+                    <span class="details">Gender</span>
+                    <input id="gender" type="radio" value="Male">Male
+                    <input id="gender" type="radio" value="Female">Female
+                </div>
+                    <textarea name="reason" id="reason" cols="30" rows="5"></textarea>
+                </div>
+                <input class="tombol join" type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+        <footer>
+            <p>@2023 Copyright Bay</p>
+        </footer>
+    </body>
+    <script src="form-course.js"></script>
+</html>
